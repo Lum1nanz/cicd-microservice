@@ -39,5 +39,5 @@ jobs:
       run: go test -v ./...
       env:
         APP_DB_USERNAME: postgres
-        POSTGRES_PASSWORD: issecure
-        POSTGRES_DB: postgres
+        APP_DB_PASSWORD: issecure
+        APP_DB_NAME: postgres
